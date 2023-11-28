@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 
-import Task from "../../../models/task.model";
+import Task from "../models/task.model";
 
 import paginationHelper from "../helpers/pagination.helper";
 

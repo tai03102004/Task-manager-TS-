@@ -2,7 +2,7 @@ import { Router} from "express";
 
 const router: Router = Router();
 
-import User from "../../../models/user.model";
+import User from "../models/user.model";
 
 import * as controller  from "../controllers/user.controller";
 

@@ -1,7 +1,7 @@
 import {Request , Response} from "express";
 import md5 from "md5";
 import { generateRandomString } from "../helpers/generate.helper";
-import User from "../../../models/user.model";
+import User from "../models/user.model";
 
 // [POST] / api/v1/users/register
 

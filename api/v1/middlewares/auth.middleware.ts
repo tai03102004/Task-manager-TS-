@@ -1,5 +1,5 @@
 
-import User from "../../../models/user.model";
+import User from "../models/user.model";
 import { Request,Response, NextFunction } from "express";
 
 export const requireAuth = async(req : Request,res : Response,next: NextFunction): Promise<void> => {

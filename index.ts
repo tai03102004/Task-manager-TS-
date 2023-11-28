@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 
 import mainV1Routes from "./api/v1/routes/index.route";
 
-import * as database from "./config/database";
+import * as database from "./api/v1/config/database";
 
 import cors from "cors";
 
